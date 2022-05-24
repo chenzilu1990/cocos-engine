@@ -26,6 +26,8 @@ Atlas.DEFAULT_HASH = (new RenderTexture())._getHash();
 
 cc.js.mixin(Atlas.prototype, {
     insertSpriteFrame (spriteFrame) {
+        // console.log("insertSpriteFrame=====")
+        // console.log("insertSpriteFrame=====222")
         let rect = spriteFrame._rect,
             texture = spriteFrame._texture,
             info = this._innerTextureInfos[texture._id];
